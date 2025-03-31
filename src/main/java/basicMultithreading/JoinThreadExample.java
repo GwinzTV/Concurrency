@@ -18,6 +18,6 @@ public class JoinThreadExample {
         one.start();
         two.start();
         one.join();  // all threads must wait for this thread to terminate before running
-        System.out.println("Done executing the threads!");
+        System.out.println("Done executing the threads now!");
     }
 }
